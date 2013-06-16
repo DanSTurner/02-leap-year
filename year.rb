@@ -1,8 +1,8 @@
 class Year
-  attr_accessor :yr
+  attr_reader :yr
 
   def initialize(num)
-  	@yr = num.to_i
+  	@yr = num
   end
 
   def leap?
